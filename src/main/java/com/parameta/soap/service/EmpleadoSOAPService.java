@@ -6,9 +6,9 @@ import com.parameta.soap.response.InsertarEmpleadoResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.jws.WebMethod;
-import javax.jws.WebParam;
-import javax.jws.WebService;
+import jakarta.jws.WebMethod;
+import jakarta.jws.WebParam;
+import jakarta.jws.WebService;
 
 @Service
 @WebService(serviceName = "EmpleadoSOAPService")
